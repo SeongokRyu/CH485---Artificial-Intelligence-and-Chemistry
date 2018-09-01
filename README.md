@@ -7,7 +7,7 @@ In this course, CH485 - Artificial Intelligence and Chemistry, students will lea
 
 This repository is managed by Seongok Ryu, TA of this course, and lecture notes/example codes about contents treated in the class will be uploaded.
 
-## Plan of practice in this course
+## Practices in this course
 
 - Practice 01 : Introduction / Linear & Logistic Regression 
 - Practice 02 : Support Vector Machine (SVM) 
