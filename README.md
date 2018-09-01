@@ -8,7 +8,7 @@
 
 In this course, CH485 - Artificial Intelligence and Chemistry, students will learn data science for molecular applications. After successfully finishing this course, students will be confident in their ability to understand and implement AI models for chemical/molecular applications.
 
-This repository is managed by Seongok Ryu, TA of this course, and lecture notes/example codes about contents treated in the class will be uploaded.
+This repository is managed by Seongok Ryu, and lecture notes/example codes about contents treated in the class will be uploaded.
 
 ## Practices in this course
 
