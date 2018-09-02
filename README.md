@@ -4,9 +4,9 @@
 # CH485---Artificial-Intelligence-and-Chemistry
 
 ### Lecturer : Woo Youn Kim, TA : Seongok Ryu, 2018 Fall
-### Depearment of Chemistry, Korea Advanced Institute of Science and Technology (KAIST)
+### Deparment of Chemistry, Korea Advanced Institute of Science and Technology (KAIST)
 
-In this course, CH485 - Artificial Intelligence and Chemistry, students will learn data science for molecular applications. After successfully finishing this course, students will be confident in their ability to understand and implement AI models for chemical/molecular applications.
+In this course, CH485 - Artificial Intelligence and Chemistry, we will learn data science for chemistry. After successfully finishing this course, students could be confident in their ability to understand and implement AI models for chemical/molecular applications.
 
 This repository is managed by Seongok Ryu, and lecture notes/example codes about contents treated in the class will be uploaded.
 
