@@ -2,7 +2,7 @@ from rdkit import Chem
 import numpy as np
 
 def read_data(filename):
-    f = open(filename + '.smiles', 'r')
+    f = open('../tox21/'+filename + '.smiles', 'r')
     contents = f.readlines()
 
     smiles = []
