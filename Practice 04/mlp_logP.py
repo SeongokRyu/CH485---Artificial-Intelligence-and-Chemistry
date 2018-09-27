@@ -7,7 +7,7 @@ from rdkit import Chem, DataStructs
 from rdkit.Chem import AllChem
 import sys
 
-# python mlp_logP.py 3 512 0.1
+# python mlp_logP.py 3 512 0.01 0.3 0.01
 num_layer = int(sys.argv[1])
 hidden_dim = int(sys.argv[2])
 init_lr = float(sys.argv[3])
@@ -65,7 +65,8 @@ Y_pred = tf.layers.dense(h,
 
 #3. Set a loss function, in this case we will use a MSE-loss (l2-norm)
 Y_pred = tf.reshape(Y_pred, shape=[-1,])
-loss = tf.reduce_mean( (Y_pred - Y)**2 ) 
+reg_loss = tf.losses.get_regularization_loss()
+loss = tf.reduce_mean( (Y_pred - Y)**2 )  + reg_loss
 
 #4. Set an optimizer
 lr = tf.Variable(0.0, trainable = False)  # learning rate
