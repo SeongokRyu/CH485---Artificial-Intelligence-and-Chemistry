@@ -108,7 +108,7 @@ def readout(input_X, hidden_dim, act):
                                use_bias=True,
                                activation=None,
                                kernel_initializer=tf.contrib.layers.xavier_initializer())
-    output_Z = tf.reduce_sum(output_Z, axis=-1)
+    output_Z = tf.reduce_sum(output_Z, axis=1)
     output = act(output_Z)
 
     return output_Z
